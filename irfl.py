@@ -6,11 +6,11 @@ import argparse
 
 def irfl(bug_report, source_dir):
     """
-    -- Collect all documents (i.e., the bug report and all source files)
-    -- Compute tf-idf vectors of each document
-    -- Compute cosine similarity between each vector
-    -- Rank source files using the similarity
-    -- Report the top five
+    1.  Collect all documents (i.e., the bug report and all source files)
+    2.  Compute tf-idf vectors of each document
+    3.  Compute cosine similarity between each vector
+    4.  Rank source files using the similarity
+    5.  Report the top five files
     """
 
     
